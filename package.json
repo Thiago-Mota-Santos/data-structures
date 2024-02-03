@@ -1,0 +1,22 @@
+{
+  "name": "typescript-generics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.0",
+    "tsx": "^3.12.7"
+  },
+  "scripts": {
+    "dev": "tsx watch src/merkle-tree/helpers.ts",
+    "eslint": "eslint '**/*.{ts}' --fix"
+  },
+  "dependencies": {
+    "base64-js": "^1.5.1",
+    "eslint": "^8.55.0"
+  }
+}
